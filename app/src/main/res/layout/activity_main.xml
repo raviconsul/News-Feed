@@ -1,0 +1,68 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ECEFF1"
+    >
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/tb"
+        />
+
+    <ImageButton
+        android:id="@+id/iv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:adjustViewBounds="true"
+        android:elevation="15dp"
+        android:maxHeight="100dp"
+        android:maxWidth="500dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bbc" />
+
+    <ImageButton
+        android:id="@+id/iv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:elevation="15dp"
+        android:maxHeight="100dp"
+        android:maxWidth="500dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/google" />
+
+    <ImageButton
+        android:id="@+id/iv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:elevation="15dp"
+        android:maxHeight="100dp"
+        android:maxWidth="500dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/hindu" />
+
+    <ImageButton
+        android:id="@+id/iv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:elevation="15dp"
+        android:maxHeight="100dp"
+        android:maxWidth="500dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/toi" />
+    </RelativeLayout>
